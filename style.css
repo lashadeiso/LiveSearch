@@ -12,8 +12,8 @@ html {
   font-size: 62.5%;
 }
 :root {
-  --primary-color: #161817;
-  --border-color: rgb(77, 8, 8);
+  --primary-color: rgb(82, 11, 50);
+  --border-color: rgb(14, 55, 22);
   --font-color: rgb(128, 125, 125);
 }
 
@@ -43,7 +43,7 @@ html {
   border: none;
   border-bottom: 0.1rem solid var(--border-color);
   font-size: 1.7rem;
-  color: rgb(157, 10, 91);
+  color: var(--primary-color);
 }
 
 .contact-list {
@@ -67,5 +67,5 @@ html {
 .contact-item a {
   font-size: 1.8rem;
   font-weight: 600;
-  color: rgb(157, 10, 91);
+  color: var(--primary-color);
 }
